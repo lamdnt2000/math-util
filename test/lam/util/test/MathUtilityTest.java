@@ -21,7 +21,7 @@ public class MathUtilityTest {
     public void getFactorial_RunsWell_IfValidArguments(){
         Assert.assertEquals(720, MathUility.getFactorial(6));
         Assert.assertEquals(120, MathUility.getFactorial(5));
-        Assert.assertEquals(240, MathUility.getFactorial(4));
+        Assert.assertEquals(24, MathUility.getFactorial(4));
         Assert.assertEquals(6, MathUility.getFactorial(3));
         Assert.assertEquals(1, MathUility.getFactorial(0));
         
